@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: rgb(224, 224, 224);
+}
+
+.container-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.a {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: -41px -41px 82px #bebebe, 41px 41px 82px #ffffff;
+}
+#username {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+#password {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+#button {
+  width: 100px;
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 50px;
+  border-radius: 10px;
+}

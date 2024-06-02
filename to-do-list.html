@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container1">
+      <div class="container-navbar">
+        <div class="container-profil">
+          <img
+            src="user.png"
+            style="width: 30px; height: 30px; margin-left: 35px; cursor: pointer;"
+          />
+          <br />
+          <input
+            type="button"
+            value="Log out"
+            style="
+              border: none;
+              border-radius: 5px;
+              color: grey;
+              width: 100px;
+              height: 20px;
+              cursor: pointer;
+            "
+            id="button"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <!-- isi -->
+    <div class="container">
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Tambahkan tugas..." />
+      <button onclick="addTask()" id="button1">Tambah</button>
+      <ul id="taskList"></ul>
+    </div>
+    <!-- isi -->
+  </body>
+  <script src="Register.js"></script>
+  <script src="todojava.js"></script>
+</html>
